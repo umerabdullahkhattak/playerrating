@@ -27,6 +27,7 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     text-align: center;
+    padding-bottom: 20px;
   }
   
   .cricketer-image {
@@ -69,7 +70,9 @@
 
 /* Add any additional styling you want for the Card component */
 .star.colored {
-  color: #f5b710; /* Colored star color */
+  color: #e7af16; /* Colored star color */
+  
+  font-size: 200%;
 }
 .rating {
   display: flex;
@@ -77,11 +80,15 @@
   justify-content: center;
   /* margin-top: 10px; */
   background-color: #f5f5f5;
+  padding: 5%;
+  
 }
 
 .star {
-  margin: 0 2px;
-  font-size: 25px;
+ 
+  
   cursor: pointer;
-  color: #ccc; /* Default uncolored star color */
+  color: #8f8c8c; /* Default uncolored star color */
+  
+  font-size: 100%;
 }
