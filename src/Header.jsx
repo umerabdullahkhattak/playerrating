@@ -5,7 +5,7 @@ import './header.css'
 
     return(
         <>
-        <div className='header'>
+        <div className='bg-slate-200 text-3xl text-center text-zinc-600'>
             Click on player&apos;s image to know his stats.
         </div>
         </>

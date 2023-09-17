@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .header{
     text-align: center;
     font-size: 2rem;

@@ -8,12 +8,12 @@ export default function Card(props) {
       };
     return (
         <>
-         <div className='modal-card'>
+         <>
       
 
-        <div className='card'>
-        <button className="close-button" onClick={props.onClose}>
-        X
+        <div className='w-1/6 h-3/6 border-2 border-yellow-200 rounded-md shadow-md overflow-hidden'>
+        <button className="font-semibold relative" onClick={props.onClose}>
+        Close
       </button>
         <div className='card-image'>
             <img  src={props.src}
@@ -51,7 +51,7 @@ export default function Card(props) {
           ))}
         </div> */}
         </div>
-      </div>
+      </>
         </>
 
         
