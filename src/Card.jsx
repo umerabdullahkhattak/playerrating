@@ -11,25 +11,25 @@ export default function Card(props) {
          <>
       
 
-        <div className='w-1/6 h-3/6 border-2 border-yellow-200 rounded-md shadow-md overflow-hidden'>
+        <div className='w-1/6 h-3/6 border-2 border-yellow-100 rounded-md shadow-md overflow-hidden'>
         <button className="font-semibold relative" onClick={props.onClose}>
-        Close
+        Click to go back
       </button>
-        <div className='card-image'>
+        <div className='flex justify-center align-middle bg-slate-100 border-yellow-800 h-3/6 w-full'>
             <img  src={props.src}
             alt={props.name}
             />
             
         </div>
-        <div className='card-data'>
-        <div className='headings'>
+        <div className='flex justify-between items-start text-start bg-slate-300'>
+        <div className='flex-col p-1 '>
                 <h3>Score</h3>
                 <h3>Average</h3>
                 <h3>Centuries</h3>
                 <h3>Fiftties</h3>
                 <h3>Best Score</h3>
             </div>
-            <div className='values'>
+            <div className='flex-col items-start'>
                 <h3>{props.score}</h3>
                 <h3>{props.average}</h3>
                 <h3>{props.centuries}</h3>

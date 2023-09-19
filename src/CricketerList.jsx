@@ -52,7 +52,7 @@ const CricketerList = () => {
       </div>
 
       {selectedCricketer && imageClicked && (
-        <div className='fixed top-0 left-0 w-full h-full bg-yellow-100 flex justify-center align-middle z-1000'>
+        <div className='fixed top-0 left-0 w-full h-full bg-slate-200 flex justify-center align-middle z-1000'>
           <Card
             name={selectedCricketer.name}
             src={selectedCricketer.src}
